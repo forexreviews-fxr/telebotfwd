@@ -1,17 +1,24 @@
-
-
-API_ID = 144            # Your Telegram API_ID , Get It from my.telegram.org
-API_HASH = "f49c31726d444e8"       # Your Telegram API_HASH , Get It from my.telegram.org
-SESSION_STRING="BQDgXIAAD0e0WeWsVB1fLces9uGLDb6XkMxtOUFJQRvCPGEpEbG5l2bHCR1_n5jaiPwe9IuJ5GVyNRAElOaGzinI3rZAPeN5QXtyxBUhzhtfAr2F1jt8o17y3W7HQIVw9sLKPWmFdag-4_-QHSf6P3ipytmBscBCc4NgHUwcAS2cMv-_yuaWupFa5ARFIHd-SIggVUeNqDoxBPPjnFESvPI4rpVkKSNwCicfXpNqlpe"    # Your Telegram Account Session String. Run generate string session to generate
+API_ID = 19150484            # Your Telegram API_ID , Get It from my.telegram.org
+API_HASH = "7721f9aef6bf360817b9daf3c6e4c68c"       # Your Telegram API_HASH , Get It from my.telegram.org
+SESSION_STRING="BAEkNpQARvIS0Vidk-B9eQVW6iqM7V46-HhZ_oTx5keKjLE-TWAQljE5UF78OhyUI7oHK-69TonFCU-AcN0THqwipEPznJwME-wdRF4e20zBqXdaXavLo535ZQUpgjPjRDYtDgnqW6wnXagIx6q1nc-AXGUmCE3XKxrYgofVli5xGn4Q4QInrG1cs0mzMIprrS7JPBomJVolf7irjZCltz74cxPrxvrpKv1bgmlcf4Zeh3IbA8uiPDvYOwQWsv4gMOlPGLlXdPu722KnfEt4LlOE67hhJy9SmqG1ktjwH2UbX3HqcHT_AKBixDcRG7x6-iYTWEypEdxQ3dIJX-40PWhCcntCvAAAAAAsMVE0AA"    # Your Telegram Account Session String. Run generate string session to generate
 
 
 
-SOURCE_1 = -1001751433607 # Source Channel 1 ID 
-DESTINATION_1 = -1001776279028 # Forward Channel 1 ID 
+SOURCE_1 =  -1001236662259 # Source Channel 1 ID 
+DESTINATION_1 =  -1001838881457 # Forward Channel 1 ID 
 
-SOURCE_2 = -1001751433607 # Source Channel 2 ID 
-DESTINATION_2 = -1001834622086 # Forward Channel 2 ID
+
+#SOURCE_2 = -1001168556565 #Source Channel 2 ID
+#DESTINATION_2 = -1001772097364  #Destination Channel 2 ID
+
+
+
+# SOURCE_03 =  #Source Channel 3  ID 
+# DESTINATION_03 =  #Destination Channel 3 ID 
+
+
+# SOURCE_04 =  #Source Channel 4  ID 
+# DESTINATION_04 =  #Destination Channel 4 ID
+
 
 # like that add multiple source and multiple destination. Edit main.py file according to this file
-
-# Thank  You.... Sig ning, Many thanks for your support. You are welcome
