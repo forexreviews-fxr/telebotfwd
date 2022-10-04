@@ -1,0 +1,84 @@
+
+# Auto Forward Bot
+
+Features:
+- Auto Forward Post to Multiple Source Channel to Multiple Destination Channel
+
+
+
+
+
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables on config.py file .
+
+`API_ID` get from my.telegram.org
+
+`API_HASH` get from my.telegram.org
+
+`SESSION_STRING` Run generate_session_string.py file to generate session string 
+
+`SOURCE_1` dd @miss_rose bot to your group. Forward message from your Private Channel to the group then type  /id to the forwarded message to get the PRIVATE_CHANNEL_ID. It will be something like -10054654654
+
+`DESTINATION_1` add @miss_rose bot to your group. Forward message from your Private Channel to the group then type  /id to the forwarded message to get the PRIVATE_CHANNEL_ID. 
+
+
+
+
+
+
+
+
+
+
+## Documentation
+
+* Your account must be joined on source channel
+* Your account must be admin of destination channel 
+
+
+
+
+## Deployment
+* Open terminal on Project folder and type
+```bash
+pip install -r requirements.txt --no-cache
+```
+
+
+* Then Generate Session String 
+```
+python generate_session_string.py
+```
+
+To deploy this project locally
+* Fill API_ID, API_HASH, SESSION_STRING, SOURCE_, DESTINATION_ on config.py
+
+
+
+```bash
+  python main.py
+```
+
+To Deploy on Heroku :
+- create a repo on github
+- upload this project
+- create a heroku account
+- connect github account to heroku
+- then deploy the repo from heroku
+- run the bot from resource tab on heroku
+
+
+## If you need to add more source and more destination 
+- add those variable on config.py
+- add lines on main.py
+- Check commented line on main.py and config.py file
+
+## Author
+
+- [@NasirHossainAkash](https://www.github.com/NasirHossainAkash)
+
+
+
+
