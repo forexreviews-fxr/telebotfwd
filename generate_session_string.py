@@ -17,5 +17,5 @@ async def main():
 
 
 asyncio.run(main())
-print("String Session Generated \nCheck Saved Message on Telegram")
-remove("session_gen.session")
+#print("String Session Generated \nCheck Saved Message on Telegram")
+#remove("session_gen.session")
