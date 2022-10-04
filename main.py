@@ -18,10 +18,23 @@ async def handler1(client, message):
     await message.forward(config.DESTINATION_1)
     logging.info("Message Forwarded to Destination 1")
 
-@app.on_message(filters.chat(config.SOURCE_2))
-async def handler2(client, message):
-    await message.forward(config.DESTINATION_2)
-    logging.info("Message Forwarded to Destination 2")
+
+
+#@app.on_message(filters.chat(config.SOURCE_2))
+#async def handler2(client, message):
+   # await message.forward(config.DESTINATION_2)
+   # logging.info("Message Forwarded to Destination 2")
+
+
+# @app.on_message(filters.chat(config.SOURCE_3))
+# async def handler3(client, message):
+#     await message.forward(config.DESTINATION_3)
+
+
+
+# @app.on_message(filters.chat(config.SOURCE_4))
+# async def handler4(client, message):
+#     await message.forward(config.DESTINATION_4)
 
 
 # You can multiple channel and multiple destination like that
